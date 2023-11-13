@@ -589,16 +589,7 @@
   window.addEventListener('offline', updateWiFiIconColor);
 </script>
   
-      <script>
-        // Check if the user is authorized (has entered the correct password)
-        const correctPassword = "Galacticv2Browser2023";
-        
-          // Check if the URL contains "next-page.html" and the referrer is not "main.html"
-        if (!document.referrer.endsWith("/next-page.html") || !window.location.pathname.endsWith("/desktop.html")) {
-            // Redirect unauthorized users to the landing page
-            window.location.href = "landing.html";
-        }
-    </script>
+     
   
 </body>
 </html>
